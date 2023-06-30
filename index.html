@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quizz</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    
+    <div id="checkbox">
+      <p>Qui est sacré empereur de France le 2 décembre 1804 ?</p>
+      <form class="form">
+        <input
+          id="Clovis"
+          name="question1"
+          type="radio"
+          value="a"
+          checked
+        />
+        <label for="Clovis">Clovis</label><br />
+        <input
+          id="Lincoln"
+          name="question1"
+          type="radio"
+          value="b"
+          checked
+        />
+        <label for="Lincoln">Abraham Lincoln</label><br />
+        <input
+          id="Napoléon"
+          name="question1"
+          type="radio"
+          value="c"
+          checked
+        />
+        <label for="Napoléon">Napoléon Bonaparte</label><br />
+      
+    </div>
+    <div id="checkbox">
+      <p>
+        Quand la déclaration d'indépendance des Etats-Unis a t-elle été votée ?
+      </p>
+      <form class="form">
+        <input id="1776" name="question2" type="radio" value="a" checked />
+        <label for="1776">4 juillet 1776</label><br />
+        <input id="1856" name="question2" type="radio" value="b" checked />
+        <label for="1856">18 avril 1856</label><br />
+        <input id="1925" name="question2" type="radio" value="c" checked />
+        <label for="1925">30 juin 1925</label><br />
+      
+    </div>
+    <div id="checkbox">
+      <p>Quand a eu lieu la chute de l'empire romain d'occident ?</p>
+   
+        <input id="15ap" name="question3" type="radio" value="a" checked />
+        <label for="15ap">15 ap. J.-C.</label><br />
+        <input id="476ap" name="question3" type="radio" value="b" checked />
+        <label for="476ap">476 ap J.-C</label><br />
+        <input
+          id="-740av"
+          name="question3"
+          type="radio"
+          value="c"
+          checked
+        />
+        <label for="-740av">-740 av J.-C.</label><br />
+    
+    </div>
+    <div id="checkbox">
+      <p>Quelle est la capitale de la Slovénie</p>
+  
+        <input id="Llub" name="question4" type="radio" value="a" checked />
+        <label for="Llub">Ljubljana</label><br />
+        <input
+          id="Belgrade"
+          name="question4"
+          type="radio"
+          value="b"
+          checked
+        />
+        <label for="Belgrade">Belgrade</label><br />
+        <input
+          id="Bratislava"
+          name="question4"
+          type="radio"
+          value="c"
+          checked
+        />
+        <label for="Bratislava">Bratislava</label><br />
+    
+    </div>
+    <div id="checkbox">
+      <p>Combien d'habitants compte l'Irlande en 2020 ?</p>
+      <form class="form">
+        <input id="1365" name="question5" type="radio" value="a" checked />
+        <label for="1365">1,365 Million</label><br />
+        <input id="21" name="question5" type="radio" value="b" checked />
+        <label for="21">21 Millions</label><br />
+        <input id="4,9" name="question5" type="radio" value="c" checked />
+        <label for="4,9">4,9 Millions</label><br />
+    
+    </div>
+
+    <button type="submit">VALIDER</button>
+  </form>
+  <div class="results">
+    <h2>Cliquez sur <span>valider</span> pour voir les <span>résultats</span></h2>
+    <p class="mark"></p>
+    <p class="help"></p>
+  </div>
+    <script src="app.js"></script>
+  </body>
+</html>
